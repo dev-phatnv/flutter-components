@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterComponents/components/checkbox.dart';
+import 'package:flutterComponents/components/modalBottomSheet.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,6 +11,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) => MaterialApp(
         debugShowCheckedModeBanner: false,
         theme: ThemeData(primaryColor: Colors.deepOrange),
-        home: CheckboxWidget(),
+        home: ModalBottomSheet(),
       );
 }
