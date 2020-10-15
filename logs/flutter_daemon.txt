@@ -1,0 +1,33 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.12.2
+Flutter extension: 3.12.2 (not activated)
+
+App: Visual Studio Code
+Version: 1.46.1
+Platform: mac
+
+Workspace type: Flutter
+Multi-root?: false
+
+Dart SDK:
+    Loc: /Users/admin/Projects/FlutterCourse/flutter/bin/cache/dart-sdk
+    Ver: 2.10.0
+Flutter SDK:
+    Loc: /Users/admin/Projects/FlutterCourse/flutter
+    Ver: 1.22.0
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Thu Oct 15 2020 [18:47:18 GMT+0700 (Indochina Time)] Log file started
+[6:47:18 PM] [FlutterDaemon] [Info] Spawning /Users/admin/Projects/FlutterCourse/flutter/bin/flutter with args ["daemon"]
+[6:47:18 PM] [FlutterDaemon] [Info] ..  in /Users/admin/Projects/FlutterCourse/flutter
+[6:47:18 PM] [FlutterDaemon] [Info] ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
+[6:47:18 PM] [FlutterDaemon] [Info]     PID: 1798
+[6:47:18 PM] [FlutterDaemon] [Info] ==> [{"id":"1","method":"emulator.getEmulators"}]
+[6:47:20 PM] [FlutterDaemon] [Info] <== [{"event":"daemon.connected","params":{"version":"0.6.0","pid":1835}}]
+[6:47:20 PM] [FlutterDaemon] [Info] ==> [{"id":"2","method":"device.enable"}]
+[6:47:20 PM] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"Starting device daemon..."}}]
+[6:47:20 PM] [FlutterDaemon] [Info] <== [{"id":"1","result":[{"id":"apple_ios_simulator","name":"iOS Simulator","category":"mobile","platformType":"ios"},{"id":"Pixel_2_API_27","name":"Pixel 2 API 27","category":"mobile","platformType":"android"},{"id":"Pixel_2_API_29","name":"Pixel 2 API 29","category":"mobile","platformType":"android"}]}]
+[6:47:23 PM] [FlutterDaemon] [Info] <== [{"id":"2","result":[null,null,null,null,null,null]}]
